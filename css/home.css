@@ -1,0 +1,86 @@
+.ads {
+    background-image: url("../img/home/background.png");
+    height: 720px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slide-box {
+    display: flex;
+    margin: 20px;
+}
+
+.game-cover {
+    margin: 24px;
+}
+
+.game-cover img {
+    height: 280px;
+}
+
+.game-cover img:hover {
+    height: 320px;
+}
+
+.list-bar span {
+    margin: 16px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.list-focus {
+    color: #384959;
+    background-color: #ffffff;
+}
+
+.game-list
+
+.game {
+    display: flex;
+    height: 128px;
+    background-color: #00000044;
+    margin: 16px;
+    border-radius: 12px;
+}
+
+.game:hover {
+    background-color: #384959;
+}
+
+.game i {
+    margin: 4px;
+}
+
+.game-image img {
+    height: 128px;
+    border-radius: 12px 0 0 12px;
+}
+
+.game-info {
+    margin: 24px;
+    align-self: center;
+    width: 25%;
+}
+
+.game-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.genre {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #384959;
+}
+
+.price {
+    color: rgba(234, 240, 246, 0.8);
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25%;
+}
