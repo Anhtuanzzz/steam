@@ -1,0 +1,61 @@
+main {
+  display: grid;
+  grid-template-columns: 680px auto;
+  grid-gap: 8px;
+  padding: 0 96px;
+  font-size: 12px;
+}
+
+h3 {
+  color: #66C0F4;
+}
+
+.game-panel {
+  padding: 48px;
+}
+
+.game-panel img {
+  width: 680px;
+}
+
+.specs {
+  display: grid;
+  grid-template-columns: 240px auto;
+  grid-gap: 8px;
+  font-size: 10px;
+}
+
+.spec {
+  color: #384959;
+}
+
+.copyright {
+  color: #384959;
+  align-self: center;
+  font-size: 12px;
+}
+
+.price-panel {
+  padding: 48px;
+}
+
+.price-panel img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #121A23;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 8px;
+}
+
+.download {
+  background-color: #66C0F4;
+  border: 1px solid #66C0F4;
+}
