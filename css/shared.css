@@ -8,6 +8,7 @@
 .head-bar .logo {
     height: 32;
 }
+
 .head-bar ul {
     list-style-type: none;
     margin: 0;
@@ -16,6 +17,7 @@
 .head-bar li {
     display: inline;
 }
+
 .head-bar a {
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
@@ -24,12 +26,26 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+.current {
+    color: #ffffff;
+}
+
 .head-bar .avatar {
     height: 48px;
 }
+
 .user-bar {
-    padding-left: 40%;
+    padding-left: 20%;
     align-items: center;
+}
+
+.user-bar i {
+    background-color: #212121;
+    border-radius: 100%;
+    font-size: 24px;
+    padding: 8px;
+    align-self: center;
 }
 
 footer {
