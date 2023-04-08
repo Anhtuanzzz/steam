@@ -50,7 +50,7 @@ const submit = document.querySelector(".submit");
 submit.addEventListener("click", function () {
   dangky.value = " ";
   pass.value = "";
-  alert("Dang ky thanh cong");
+  alert("Đăng kí thành công!");
 });
 btnLogin.addEventListener("click", function (e) {
   // Prevent form from submitting
