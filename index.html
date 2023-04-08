@@ -7,7 +7,29 @@
 </head>
 <body>
     <h1>Welcome to new Steam!</h1>
-    <p>About us:</p>
-    <p>Nguyen Anh Tuan</p>
+    <a href="./pages/register.html">Let's go</a>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCSjNY78kG-MybGrBB49pooO-bL-AxJB94",
+          authDomain: "steammoidaden.firebaseapp.com",
+          projectId: "steammoidaden",
+          storageBucket: "steammoidaden.appspot.com",
+          messagingSenderId: "781716950031",
+          appId: "1:781716950031:web:7a9fa69c0c3a4a5a58677a",
+          measurementId: "G-8SRV20P4BZ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>

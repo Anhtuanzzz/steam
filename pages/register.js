@@ -65,7 +65,10 @@ btnLogin.addEventListener("click", function (e) {
     // Clear input fields
     inputLoginUsername.value = inputLoginPin.value = "";
     inputLoginPin.blur();
-    window.open("community.html");
+    window.open("./home.html");
     // Update UI
+  }
+  else {
+    alert('Thông tin tài khoản sai!');
   }
 });
