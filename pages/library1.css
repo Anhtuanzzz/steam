@@ -39,13 +39,13 @@ body {
 }
 
 .header .inner-logo i {
-  font-size: 24px;
+  font-size: 50px;
   width: auto;
   color: #fff;
 }
 
 .header .inner-logo span {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 500;
   color: #fff;
   margin-left: 10px;
@@ -108,7 +108,7 @@ h3 {
   color: #ffffff81;
 }
 .inner-avatar h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0 20px;
 }
 .inner-avatar h3 {

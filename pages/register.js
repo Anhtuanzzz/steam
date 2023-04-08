@@ -65,7 +65,7 @@ btnLogin.addEventListener("click", function (e) {
     // Clear input fields
     inputLoginUsername.value = inputLoginPin.value = "";
     inputLoginPin.blur();
-    window.open("home.html");
+    window.open("community.html");
     // Update UI
   }
 });
